@@ -8,7 +8,7 @@ export default function Meeting() {
       <div className='col-span-1'>
         <Sidebar />
       </div>
-      <div className='col-span-11 border-gray-200 border-l-[1px] '>
+      <div className=' col-span-11 border-gray-200 border-l-[1px] '>
         <Main />
       </div>
     </div>

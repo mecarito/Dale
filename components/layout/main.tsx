@@ -1,4 +1,4 @@
-import React, { useState, useEffect, useLayoutEffect } from 'react';
+import React, { useState, useLayoutEffect } from 'react';
 
 export default function Main() {
   useLayoutEffect(() => {
@@ -17,10 +17,11 @@ export default function Main() {
     fetchMedia();
   });
 
-
   return (
     <div className="p-8">
-      <h1 className=' text-dark-blue text-2xl font-normal-text font-semibold '>Overview of new real estate proposals</h1>
+      <h1 className=" text-dark-blue text-2xl font-normal-text font-semibold ">
+        Overview of new real estate proposals
+      </h1>
       <video className="mt-6 rounded-2xl " width={1000} height={600}>
         Sorry, your browser does not support video
       </video>

@@ -51,7 +51,7 @@ export function PartcipantOnCall() {
           </p>
         </div>
       </div>
-      <div className="flex flex-row space-x-2 items-center">
+      <div className="flex flex-row space-x-2 items-center cursor-pointer">
         <div className='py-2 px-2 bg-primary-green rounded-xl'>
           <svg
             xmlns="http://www.w3.org/2000/svg"

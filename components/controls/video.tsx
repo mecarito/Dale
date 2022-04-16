@@ -10,7 +10,7 @@ export function Video() {
   }
 
   return (
-    <div className='p-3 bg-controls-bg rounded-full'>
+    <button className='p-3 bg-controls-bg rounded-full'>
       {videoOff ? (
         <svg
           xmlns="http://www.w3.org/2000/svg"
@@ -46,6 +46,6 @@ export function Video() {
           <rect x="1" y="5" width="15" height="14" rx="2" ry="2"></rect>
         </svg>
       )}
-    </div>
+    </button>
   );
 }

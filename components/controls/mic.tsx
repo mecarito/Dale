@@ -10,7 +10,7 @@ export  function Mic() {
       setMicOff(true)
   }
   return (
-    <div className='p-3 bg-controls-bg rounded-full'>
+    <button className='p-3 bg-controls-bg rounded-full'>
         { micOff ?  <svg
         xmlns="http://www.w3.org/2000/svg"
         width="24"
@@ -52,6 +52,6 @@ export  function Mic() {
       }
      
      
-    </div>
+    </button>
   );
 }

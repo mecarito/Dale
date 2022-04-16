@@ -8,7 +8,8 @@ module.exports = {
         'primary-bg-green': '#E0F4F1',
         'secondary-bg-orange': '#FCF2F2',
         'dark-blue': '#131414',
-        'controls-bg': '#EDF0F4'
+        'controls-bg': '#EDF0F4',
+        'dark-grey': '#B5BAC9'
       },
       fontFamily: {
         logo: ['Send Flowers', 'cursive'],

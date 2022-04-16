@@ -11,7 +11,7 @@ export function FullScreen() {
   }
 
   return (
-    <div className='p-3 bg-controls-bg rounded-full'>
+    <button className='p-3 bg-controls-bg rounded-full'>
       {fullScreen ? (
         <svg
           xmlns="http://www.w3.org/2000/svg"
@@ -51,6 +51,6 @@ export function FullScreen() {
           <line x1="3" y1="21" x2="10" y2="14"></line>
         </svg>
       )}
-    </div>
+    </button>
   );
 }

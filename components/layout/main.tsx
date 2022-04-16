@@ -1,4 +1,5 @@
 import React, { useState, useLayoutEffect } from 'react';
+import ControlsView from './controlsView';
 
 export default function Main() {
   useLayoutEffect(() => {
@@ -25,6 +26,9 @@ export default function Main() {
       <video className="mt-6 rounded-2xl " width={1000} height={600}>
         Sorry, your browser does not support video
       </video>
+      <div className=' mt-10'>
+        <ControlsView />
+      </div>
     </div>
   );
 }

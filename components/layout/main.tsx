@@ -19,14 +19,14 @@ export default function Main() {
   });
 
   return (
-    <div className="p-8">
+    <div className="p-8 relative">
       <h1 className=" text-dark-blue text-2xl font-normal-text font-semibold ">
         Overview of new real estate proposals
       </h1>
       <video className="mt-6 rounded-2xl " width={1000} height={600}>
         Sorry, your browser does not support video
       </video>
-      <div className=' mt-10'>
+      <div className='mt-10 absolute'>
         <ControlsView />
       </div>
     </div>

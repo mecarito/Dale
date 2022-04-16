@@ -2,7 +2,7 @@ import React from 'react';
 
 export function Settings() {
   return (
-    <div>
+    <div className='p-3 bg-controls-bg rounded-full'>
       <svg
         xmlns="http://www.w3.org/2000/svg"
         width="24"

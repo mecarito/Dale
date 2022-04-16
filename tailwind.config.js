@@ -6,6 +6,7 @@ module.exports = {
         'primary-green': '#31A389',
         'secondary-orange': '#F65D5B',
         'primary-bg-green': '#E0F4F1',
+        'secondary-bg-orange': '#FCF2F2',
         'dark-blue': '#131414',
         'controls-bg': '#EDF0F4'
       },

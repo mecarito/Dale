@@ -3,8 +3,8 @@ import React from 'react';
 export default function Sidebar() {
   return (
     <div className=" px-4">
-      <div className="mt-5">
-        <h3 className="text-5xl  font-semibold text-secondary-orange font-logo text-center">
+      <div className="mt-8">
+        <h3 className="text-4xl  font-semibold text-secondary-orange  text-center">
           Da<span className=" text-primary-green">le</span>
         </h3>
         <div className="space-x-3 mt-12 flex flex-row items-center hover:bg-primary-bg-green p-2 rounded-lg">
@@ -23,7 +23,7 @@ export default function Sidebar() {
             <polygon points="23 7 16 12 23 17 23 7"></polygon>
             <rect x="1" y="5" width="15" height="14" rx="2" ry="2"></rect>
           </svg>
-          <p className=' mt-1 text-primary-green text-lg font-normal-text font-semibold'>Video</p>
+          <p className=' mt-1 text-primary-green text-base  font-semibold'>Video</p>
         </div>
       </div>
     </div>

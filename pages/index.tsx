@@ -14,7 +14,7 @@ const Home: NextPage = () => {
       <main className="h-screen">
         <div className="flex flex-col items-center mt-32 ">
           <button
-            className=" text-white px-6 py-4 bg-primary-green rounded-md font-normal-text"
+            className=" text-white px-6 py-4 bg-primary-green rounded-md "
             onClick={() => Router.push('/meeting')}
           >
             Start meeting

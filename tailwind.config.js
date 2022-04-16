@@ -9,11 +9,9 @@ module.exports = {
         'secondary-bg-orange': '#FCF2F2',
         'dark-blue': '#131414',
         'controls-bg': '#EDF0F4',
-        'dark-grey': '#B5BAC9'
-      },
-      fontFamily: {
-        logo: ['Send Flowers', 'cursive'],
-        'normal-text': ['Roboto Serif', 'serif'],
+        'dark-grey': '#B5BAC9',
+        'button-bg': '#D1E6E7',
+        'button-text': '#7C8292'
       },
     },
   },

@@ -59,7 +59,7 @@ export default function Main() {
           </div>
         </div>
       </div>
-      <div className=' w-full py-4 mx-12 '>
+      <div className='w-full py-4 mx-12 h-screen '>
         <Chat />
       </div>
     </div>
